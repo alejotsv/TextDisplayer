@@ -16,7 +16,7 @@ public class TextPanel extends JPanel {
         Graphics2D comp2D = (Graphics2D) comp;
         comp2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         comp2D.drawString(text, 60, 140);
-        Font font = new Font("Comic Sans", Font.BOLD + Font.ITALIC, 12);
+        Font font = new Font("Comic Sans", Font.BOLD + Font.ITALIC, 14);
         comp2D.setFont(font);
         comp2D.drawString("With a different font", 60, 40);
     }
