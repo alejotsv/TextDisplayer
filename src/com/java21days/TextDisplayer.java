@@ -11,9 +11,8 @@ public class TextDisplayer extends JFrame {
         setSize(dim);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-
-
-
+        TextPanel panel = new TextPanel(text);
+        add(panel);
         setVisible(true);
     }
 }

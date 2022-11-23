@@ -14,6 +14,6 @@ public class TextPanel extends JPanel {
     @Override
     public void paintComponent(Graphics comp){
         Graphics2D comp2D = (Graphics2D) comp;
-        comp2D.drawString(text, 10, 10);
+        comp2D.drawString(text, 10, 60);
     }
 }
